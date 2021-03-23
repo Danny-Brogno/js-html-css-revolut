@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+li {
+   list-style-type: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* -------------HEADER--------------- */
+
+header {
+  height: 200px;
+  line-height: 200px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  background-color: blue;
+}
+/* -------------------------------------------- */
+.navigation {
+  display: flex;
+}
+
+.logo {
+  font-size: 30px;
+  padding-right: 60px;
+}
+
+.all-the-links {
+  width: 100%;
+  background-color: red;
+}
+
+.all-the-links ul:first-of-type {
+  display: flex;
+}
+
+.all-the-links ul li .left-span {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* -------------------------------------------- */
+
+.all-the-links ul li:nth-child(3),
+.all-the-links ul li:nth-child(4),
+.all-the-links ul li:nth-child(5),
+.all-the-links ul li:nth-child(6) {
+align-self: flex-end;
+/* position: relative;
+left: 532px; */
+}
