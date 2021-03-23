@@ -38,6 +38,9 @@ a:active {
 .navigation .fa-registered {
   font-size: 30px;
   padding-right: 60px;
+}
+
+.navigation div:first-of-type {
   display: flex;
   align-items: center;
 }
@@ -102,4 +105,8 @@ ul:nth-child(3) span:nth-child(1) {
 
 .get-app:hover {
   background-color: grey;
+}
+
+/* -------------------------------------- */
+
 }
