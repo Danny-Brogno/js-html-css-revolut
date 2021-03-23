@@ -38,7 +38,8 @@ header {
   display: flex;
 }
 
-.logo {
+/* THIS IS THE LOGO */
+.navigation .fa-registered {
   font-size: 30px;
   padding-right: 60px;
 }
@@ -46,10 +47,16 @@ header {
 .all-the-links {
   width: 100%;
   background-color: red;
+  display: flex;
+  flex-direction: row;
 }
 
 .all-the-links ul:first-of-type {
-  display: flex;
+  width: 50%;
+}
+
+.all-the-links ul:nth-child(2) {
+  width: 50%;
 }
 
 .all-the-links ul li .left-span {
