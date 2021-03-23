@@ -47,7 +47,6 @@ header {
 
 .all-the-links {
   width: 100%;
-  background-color: red;
   display: flex;
   flex-direction: row;
 }
@@ -58,7 +57,8 @@ header {
 
 .all-the-links ul:nth-child(2) {
   width: 50%;
-  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .all-the-links ul li .left-span {
@@ -71,7 +71,5 @@ header {
 .all-the-links ul li:nth-child(4),
 .all-the-links ul li:nth-child(5),
 .all-the-links ul li:nth-child(6) {
-align-self: flex-end;
-/* position: relative;
-left: 532px; */
+padding-left: 20px;
 }
