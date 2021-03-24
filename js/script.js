@@ -1,8 +1,25 @@
+// FIRST TIPE
+
+function showMenu() {
+  var invisible = $(this);
+  var menu = invisible.find(".dropdown");
+
+  $(".dropdown").hide();
+  menu.toggle();
+}
+
+// function byeByeMenu() {
+//   var visible = $(this);
+//   var menu = visible.find(".dropdown");
+//
+//   $(".dropdown").hide();
+// }
 
 function init () {
-  // $(".right-arrow").click(nextClick);
-  // $(".left-arrow").click(previousClick);
-  console.log("ciao");
+  $(".drop-links").mouseenter(showMenu);
+  $(".drop-links").mouseleave(byeByeMenu);
 }
 
 $(document).ready(init);
+
+// --------------------------------------------------------
