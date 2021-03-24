@@ -83,7 +83,7 @@ padding-left: 20px;
 
 .right-side span:hover,
 .left-side span:hover {
-  color: lime;
+  color: purple;
 }
 
 ul:nth-child(3) span:nth-child(1) {
@@ -156,6 +156,6 @@ ul:nth-child(3) span:nth-child(1) {
   filter: brightness(200%);
 }
 
-.active {
+/* .active {
   display: block;
-}
+} */

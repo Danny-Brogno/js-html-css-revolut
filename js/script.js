@@ -8,16 +8,16 @@ function showMenu() {
   menu.toggle();
 }
 
-// function byeByeMenu() {
-//   var visible = $(this);
-//   var menu = visible.find(".dropdown");
-//
-//   $(".dropdown").hide();
-// }
+function byeByeMenu() {
+  var visible = $(this);
+  var menu = visible.find(".dropdown");
+
+  $(".dropdown").hide();
+}
 
 function init () {
   $(".drop-links").mouseenter(showMenu);
-  $(".drop-links").mouseleave(byeByeMenu);
+  $(".dropdown").mouseleave(byeByeMenu);
 }
 
 $(document).ready(init);
