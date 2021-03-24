@@ -122,9 +122,38 @@ ul:nth-child(3) span:nth-child(1) {
 
 .dropdown li {
   display: block;
+  padding: 0px 20px 20px 0px;
+}
+
+.lallero {
+  position: relative;
+}
+
+.color-filters {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  filter: blur(30px);
+}
+
+.other-color1 {
+  background-color: green;
+}
+
+.other-color2 {
+  background-color: red;
+}
+
+.other-color3 {
+  background-color: yellow;
 }
 
 .dropdown span {
+  z-index: 2;
+  filter: brightness(200%);
 }
 
 .active {
