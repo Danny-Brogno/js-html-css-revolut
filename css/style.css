@@ -58,7 +58,7 @@ a:active {
   align-items: center;
 }
 
-.all-the-links ul:nth-child(2) {
+.all-the-links .right-side {
   width: 40%;
   display: flex;
   justify-content: flex-end;
@@ -76,9 +76,6 @@ a:active {
   font-weight: bold;
 }
 
-.all-the-links ul li,
-.all-the-links ul li,
-.all-the-links ul li,
 .all-the-links ul li {
 padding-left: 20px;
 }
@@ -107,4 +104,15 @@ ul:nth-child(3) span:nth-child(1) {
   background-color: grey;
 }
 
+
+
 /* -------------------------------------- */
+/* Dropdown */
+
+.dropdown {
+  display: block;
+}
+
+.dropdown li {
+  display: block;
+}
